@@ -7,41 +7,21 @@ class Generator
 {
 private:
 	static bool isRestart;
-	int m_MaxSize_x;
+	int m_MaxSize_x;		//맵의 크기
 	int m_MaxSize_y;
+
+	int MIN_NODE_SIZE;		//자르는 구역 크기의 제한
+	int MAX_NODE_SIZE;
 private:
-	void Initialize() {
-		cout << "던전 생성 초기화 진행" << endl;
+	void Initialize();
 
-		cout << "맵의 가로 크기 : ";
-		cin >> m_MaxSize_x;
-
-		cout << "맵의 세로 크기 : ";
-		cin >> m_MaxSize_y;
-	};
-
-	void Run() {
-		BSP_Tree::Instance()._Run(m_MaxSize_x, m_MaxSize_y);
-	};
-
-	bool ReStart()
-	{
-		static int input;
-		cout << "종료 : 0 , 재시작 : 1" << endl;
-		cin >> input;
-
-		return input == 0 ? false : true;
-	};
+	void Run() ;
+	bool ReStart();
 
 public:
-	Generator() {};
-	~Generator() {};
+	Generator();
+	~Generator();
 
-	void Launcher() {
-		do {
-			this->Initialize();
-			this->Run();
-		} while (this->ReStart());
-	}
+	void Launcher();
 };
 

@@ -30,15 +30,14 @@ public:
 		return *this;
 	};
 
-	operator int() {
-		m_x = (int)m_x;
-		m_y = (int)m_y;
-		return *this;
-	};
-
-	operator float() {
-		m_x = (float)m_x;
-		m_y = (float)m_y;
-		return *this;
-	};
+	//operator int() {
+	//	m_x = (int)m_x;
+	//	m_y = (int)m_y;
+	//	return *this;
+	//};
+	//operator float() {
+	//	m_x = (float)m_x;
+	//	m_y = (float)m_y;
+	//	return *this;
+	//};
 };

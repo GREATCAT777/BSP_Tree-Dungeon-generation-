@@ -13,6 +13,11 @@ public:
 		roomPos = new MyVector2(_x, _y);
 		roomsize = new MyVector2(_width, _height);
 	}
+	RoomData(int _x, int _y, int _width, int _height) //Pos,Size
+	{
+		roomPos = new MyVector2(_x, _y);
+		roomsize = new MyVector2(_width, _height);
+	}
 	~RoomData() {};
 
 	const MyVector2& getRoomPos() const {

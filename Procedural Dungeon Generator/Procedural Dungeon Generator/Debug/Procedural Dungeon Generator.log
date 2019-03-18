@@ -1,3 +1,4 @@
-﻿  stdafx.cpp
-  Procedural Dungeon Generator.cpp
+﻿  BSP_Tree.cpp
+d:\연습 프로젝트\git_code_repository\bsp_tree_dungeongeneration\procedural dungeon generator\procedural dungeon generator\bsp_tree.cpp(43): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\연습 프로젝트\git_code_repository\bsp_tree_dungeongeneration\procedural dungeon generator\procedural dungeon generator\bsp_tree.cpp(71): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   Procedural Dungeon Generator.vcxproj -> D:\연습 프로젝트\Git_Code_Repository\BSP_Tree_DungeonGeneration\Procedural Dungeon Generator\Debug\Procedural Dungeon Generator.exe

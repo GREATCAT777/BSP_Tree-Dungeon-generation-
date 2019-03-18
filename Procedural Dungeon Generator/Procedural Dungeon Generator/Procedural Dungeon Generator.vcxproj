@@ -159,6 +159,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BSP_Node.cpp" />
+    <ClCompile Include="BSP_Tree.cpp" />
+    <ClCompile Include="Generator.cpp" />
     <ClCompile Include="Procedural Dungeon Generator.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
